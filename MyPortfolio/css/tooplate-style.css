@@ -183,10 +183,10 @@ a:hover, a:active, a:focus {
   border-top-color: #ffffff;
   animation: spinner .9s linear infinite;
 }
-
+/* 
 @-webkit-@keyframes spinner {
   to {transform: rotate(360deg);}
-}
+} */
 
 @keyframes spinner {
   to {transform: rotate(360deg);}
@@ -323,7 +323,6 @@ a:hover, a:active, a:focus {
 .contact-info .fa {
   padding-right: 10px;
 }
-
 
 #contact .form-control {
   border: none;
